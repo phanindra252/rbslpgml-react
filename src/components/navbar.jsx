@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom"; // Import NavLink
 import { HashLink } from "react-router-hash-link";
-import image from "./assets/rbslpgml.png";
+import image from "/src/assets/images/logos/rbslpgml.png";
 
 const Navbar = () => {
   // State to handle mobile menu toggle

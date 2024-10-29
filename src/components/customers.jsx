@@ -1,11 +1,11 @@
-import Axa from "./assets/AXA-Logo-PNG7.png";
-import Shell from "./assets/Shell-Logo-PNG4.png";
-import Centrica from "./assets/Centrica-Logo.wine.png";
-import nationalGrid from "./assets/National_Grid_plc-Logo.wine.png";
-import commerzBank from "./assets/Commerzbank-Logo.png";
-import Lloyds from "./assets/Lloyds-logo.png";
-import Vodafone from "./assets/Vodafone-Logo.png";
-import Threeuk from "./assets/Three-UK-logo.png";
+import Axa from "/src/assets/images/Customers_Logos/AXA-Logo-PNG7.png";
+import Shell from "/src/assets/images/Customers_Logos/Shell-Logo-PNG4.png";
+import Centrica from "/src/assets/images/Customers_Logos/Centrica-Logo.wine.png";
+import nationalGrid from "/src/assets/images/Customers_Logos/National_Grid_plc-Logo.wine.png";
+import commerzBank from "/src/assets/images/Customers_Logos/Commerzbank-Logo.png";
+import Lloyds from "/src/assets/images/Customers_Logos/Lloyds-logo.png";
+import Vodafone from "/src/assets/images/Customers_Logos/Vodafone-Logo.png";
+import Threeuk from "/src/assets/images/Customers_Logos/Three-UK-logo.png";
 
 const customersData = [
   {

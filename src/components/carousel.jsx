@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import image1 from "./assets/pexels-fauxels-3183153.jpg";
-import image2 from "./assets/template-easy-code.png";
-import image3 from "./assets/home3.png";
-import bgimage from "./assets/photogrid.jpg";
+import image1 from "/src/assets/images/carousel/carousel-1.jpg";
+import image2 from "/src/assets/images/carousel/carousel-2.png";
+import image3 from "/src/assets/images/carousel/carousel-3.png";
+import bgimage from "/src/assets/images/carousel/carousel-bg.jpg";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

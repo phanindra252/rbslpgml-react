@@ -1,4 +1,4 @@
-import bgimage from "./assets/texture-bw.png";
+import bgimage from "/src/assets/images/testimonials/texture-bw.png";
 
 const testimonialsData = [
   {
