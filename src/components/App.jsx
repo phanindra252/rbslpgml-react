@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./header";
 import Home from "./Home";
 import AboutUspage from "./aboutsuspage";
@@ -11,7 +11,7 @@ import Contactpage from "./contact";
 
 const App = () => {
   return (
-    <>
+    <Router>
       <div className="flex flex-col min-h-screen">
         <div className="flex-grow">
           <Header />
@@ -28,7 +28,7 @@ const App = () => {
         </div>
         <AboutUs />
       </div>
-    </>
+    </Router>
   );
 };
 
